@@ -1,21 +1,32 @@
-import React from 'react';
-import { Amplify } from 'aws-amplify';
-
-import { Authenticator } from '@aws-amplify/ui-react';
-import '@aws-amplify/ui-react/styles.css';
-
-import awsExports from './Configuration.js';
-Amplify.configure(awsExports);
-
-export default function App() {
-  return (
-    <Authenticator>
-      {({ signOut, user }) => (
-        <main>
-          <h1>Hello {user.username}</h1>
-          <button onClick={signOut}>Sign out</button>
-        </main>
-      )}
-    </Authenticator>
-  );
+import React, { Component } from 'react';
+import './App.css';
+import Greet from './components/Greet';
+class App extends Component 
+{
+  render() 
+  {
+    return (
+      <div className="App">
+        <header>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Exercises</li>
+            <li>Meals</li>
+            <li>Supplements</li>
+            <li>Contact</li>
+          </ul>
+        </header>
+        <Greet name="Bruce" heroName="Batman">
+          <p>This is children props</p>
+        </Greet>
+        <Greet name="Clark" heroName="Superman">
+          <button>Action</button>
+        </Greet>
+        <Greet name="Diana" heroName="Wonder Woman" />
+      </div>
+    )
+  }
 }
+
+export default App;
