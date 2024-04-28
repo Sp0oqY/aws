@@ -9,7 +9,7 @@ class App extends Component
       <div className="App">
         <header>
           <ul>
-            <li>Home</li>
+            <li><a href="https://main.drzyxmq7a3ydx.amplifyapp.com/home">Home</a></li>
             <li>About</li>
             <li>Exercises</li>
             <li>Meals</li>
