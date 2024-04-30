@@ -6,7 +6,7 @@ export default function Contact() {
     return (
         <div>
             <Header />
-            
+            <h1>Mičus ono mi to fungujeeeee</h1>
         </div>
     )
 }
