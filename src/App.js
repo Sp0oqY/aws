@@ -10,12 +10,7 @@ import NoPage from './pages/NoPage';
 class App extends Component {
   render() {
     return (
-      // <div className="App">
-      //   
-      //   <Greet name="Bruce" heroName="Batman"></Greet>
-      // </div>
-
-      <div>
+      <div className="App">
         <BrowserRouter>
           <Routes>
             <Route path="/home" element={<Home />} />
@@ -24,8 +19,6 @@ class App extends Component {
             <Route path="*" element={<NoPage />} />
           </Routes>
         </BrowserRouter>
-
-        
       </div>
     )
   }
