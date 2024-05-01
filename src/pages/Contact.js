@@ -5,7 +5,6 @@ import '../css/Contact.css';
 export default function Contact() {
     return (
         <div>
-            <Header />
             <form className="container">
                 <div className="contact-box">
                     <div className="right">
@@ -35,10 +34,9 @@ export default function Contact() {
                         <h1>Contact Info</h1>
                         <ul>
                             <li>Miroslav Kaštier</li>
-                            <li>Masarykova Univerzia <br/> Fakulta Informatiky</li>
+                            <li>kastierm45@gmail.com <br/> +421 904 021 045 <br/> <br/><br/><br/><br/></li>
+                            <li>Masarykova Univerzita <br/> Fakulta Informatiky</li>
                             <li>Botanická 68A, 602 00 <br/> Královo Pole-Ponava, Brno</li>
-                            <li>kastierm45@gmail.com</li>
-                            <li>+421 904 021 045</li>
                         </ul>
 
                         <a target="_blank" href="https://www.facebook.com/profile.php?id=100008982675113"><img className="net fb" src="https://image.similarpng.com/very-thumbnail/2020/04/Beautiful-Facebook-logo-icon-social-media-png.png" alt="" /></a>

@@ -1,3 +1,6 @@
 .App{
-    background-image: url(https://i.pinimg.com/originals/a3/1d/e3/a31de3187c7fa939a863f4b8593ef1de.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(https://i.pinimg.com/originals/a3/1d/e3/a31de3187c7fa939a863f4b8593ef1de.jpg);
+    background-size: cover;
+    height: 100vh;
+
 }
